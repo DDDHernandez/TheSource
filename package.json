@@ -1,0 +1,27 @@
+{
+  "name": "thesource",
+  "version": "1.0.0",
+  "description": "I like reading news so i made a newsscraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDDHernandez/TheSource.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDDHernandez/TheSource/issues"
+  },
+  "homepage": "https://github.com/DDDHernandez/TheSource#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0",
+    "morgan": "^1.9.1"
+  }
+}
